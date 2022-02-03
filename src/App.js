@@ -14,8 +14,8 @@ function App() {
 
   return (
     <div className="wrapper">
-      <h1>Application</h1>
-      <a href="/">Login</a>
+      <h1>Welcome</h1>
+      {!token && <a href="/">Login</a>}
       <Router>
         <Switch>
           <Route exact path="/" component={Login} />
