@@ -11,8 +11,8 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(false);
   const [round, setRound] = useState(0);
   const [total, setTotal] = useState(0);
-  const [sections, setSections] = useState(200);
   const [progress, setProgress] = useState(0);
+  const sections = 200;
 
 
   function onReaderLoad(event) {
